@@ -21,7 +21,7 @@ h2{
 }
 .options{
     color: #777;
-    font-size: 1.75vw;
+    font-size: 1.3vw;
     font-family: Arial, Helvetica, sans-serif;
     left: 1rem;
     padding: 0 0 1.35vw 0;
@@ -31,25 +31,42 @@ h2{
     margin: 2vw;
 }
 .img-title{
-    border: 2px solid #c7c7c7;
+    border: 2px solid #ddd;
 }
 .img-title h3{
     color: #999;
     padding: 0 0 0 1rem;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .img-title p{
     color: #999;
     padding: 0 0 0 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
 }
 
 .jumbo {
     background-image: url('../images/dog.jpg');
-    height: 20rem;
+    height: 30rem;
     max-width: 100%;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.top-news{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    padding: 0 2rem 0 2rem;
+}
+.top-news div{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#555;
+    font-size: 1.4rem;
+    padding: 1rem;
 }
 
