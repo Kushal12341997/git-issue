@@ -1,6 +1,8 @@
 body {
     width: 1000;
     margin:auto;
+    height: auto;
+    overflow: auto;
 }
 .container-header{
     display: flex;
@@ -68,5 +70,44 @@ h2{
     color:#555;
     font-size: 1.4rem;
     padding: 1rem;
+}
+.headlines{
+    
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding:0 0 0 0;
+    flex-direction: column;
+}
+.headlines div{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#555;
+    border-bottom: 2px solid #ddd;
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+}
+.sports{
+    display: flex;
+    flex-direction: row;
+}
+.sports div{
+    flex:1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#999;
+    font-size: 1.1rem;
+    padding: 1.05rem 0 1.2rem 0;
+}
+.sports-grid{
+    display: grid;
+    grid-template-columns: auto 20rem auto auto auto;
+}
+.sports-grid div{
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
 }
 
