@@ -1,6 +1,6 @@
-.container-body{
-    padding: 1rem 2rem 2rem 4rem;
-    width: 70%;
+body {
+    width: 1280;
+    margin:auto;
 }
 .container-header{
     display: flex;
@@ -33,13 +33,34 @@ h2{
     margin: 4rem;
 }
 .crop-img{
-  
     overflow: hidden;
-    position: relative;
 }
 .crop-img img{
    width: 100%;
-   position: relative;
    height: 800px;
    margin: -160px 0 -300px 0;
 }
+.img-title{
+    border: 2px solid #c7c7c7;
+}
+.img-title h3{
+    color: #999;
+    padding: 0 0 0 1rem;
+    font-size: 2rem;
+}
+.img-title p{
+    color: #999;
+    padding: 0 0 0 1rem;
+    font-size: 1.5rem;
+}
+.point-container{
+    display: flex;
+}
+
+.jumbo {
+    background-image: url('../images/dog.jpg');
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
