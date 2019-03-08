@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
 }
-img{
+.img-logo{
     align-self: center;
     max-width: 100%;
     height: auto;
@@ -148,4 +148,5 @@ h2{
     float: left;
     width: 13.5rem;
     height: auto;
+    padding: 0 1.5rem 0 0;
 }
