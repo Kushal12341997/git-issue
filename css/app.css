@@ -1,5 +1,5 @@
 body {
-    width: 1000;
+    max-width: 1000;
     margin:auto;
     height: auto;
     overflow: auto;
@@ -138,4 +138,14 @@ h2{
     padding: 0rem 0 1rem 3.2rem;
     height: auto;
     width:10rem;
+}
+.box-2{
+    font-size: 1.37rem;
+    color: #626262;
+    max-width: 100%;
+}
+.box-2 img{
+    float: left;
+    width: 13.5rem;
+    height: auto;
 }
